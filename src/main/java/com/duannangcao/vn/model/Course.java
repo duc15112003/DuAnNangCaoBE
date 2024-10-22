@@ -22,7 +22,7 @@ public class Course {
     private String description;
 
     @Column(name = "duration")
-    private Integer duration; // Assuming duration is in minutes or hours, adjust as necessary
+    private Integer duration;
 
     @Column(name = "price")
     private Double price;
